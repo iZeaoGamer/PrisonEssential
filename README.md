@@ -26,6 +26,7 @@ If you encounter Bugs do not forget to message me on Discord: DaRealAqua # 7047
 - | $this->getNextRank($sender); = (It shows you what your UP Rank is)| 
 - | $this->getPrestige($sender); = (Show what Prestige you are)|
 - | $this->getNextPrestige($sender); = (It shows you what your UP Prestige is)|
+- | $this->calculateMoney($sender); = (Calculate money for Rank UP)|
 
 ### Authors:
 - DaRealAqua
