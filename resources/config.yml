@@ -1,0 +1,293 @@
+---
+worlds:
+  - "A" 
+  - "B" 
+  - "C" 
+  - "D" 
+  - "E" 
+  - "F"
+  - "G"
+  - "H"
+  - "I"
+  - "J"
+  - "K"
+  - "L"
+  - "M"
+  - "N"
+  - "O"
+  - "P"
+  - "Q"
+  - "R"
+  - "S"
+  - "T"
+  - "U"
+  - "V"
+  - "W"
+  - "X"
+  - "Y"
+  - "Z"
+  - "pvpmine"
+  - "premium"
+  - "MAPA3"
+  - "crate"
+pvp:
+  - "A" 
+  - "B" 
+  - "C" 
+  - "D" 
+  - "E" 
+  - "F"
+  - "G"
+  - "H"
+  - "I"
+  - "J"
+  - "K"
+  - "L"
+  - "M"
+  - "N"
+  - "O"
+  - "P"
+  - "Q"
+  - "R"
+  - "S"
+  - "T"
+  - "U"
+  - "V"
+  - "W"
+  - "X"
+  - "Y"
+  - "Z"   
+  - "premium"
+  - "MAPA3"
+  - "crate"
+  - "plot"
+sell:
+  - "A" 
+  - "B" 
+  - "C" 
+  - "D" 
+  - "E" 
+  - "F"
+  - "G"
+  - "H"
+  - "I"
+  - "J"
+  - "K"
+  - "L"
+  - "M"
+  - "N"
+  - "O"
+  - "P"
+  - "Q"
+  - "R"
+  - "S"
+  - "T"
+  - "U"
+  - "V"
+  - "W"
+  - "X"
+  - "Y"
+  - "Z"   
+  - "premium"
+  - "MAPA3"
+  - "crate"
+  - "plot"  
+#Message sent when a player tries to use a prison-related command outside the prison world.
+not-in-prison-world: "§8[§c!§8] §cYou are not in Mines world, you can't use that command here."
+#The default tag for a player who doesn't have any prestige
+no-prestige-tag: "-"
+#The message displayed when a player tries to rankup but he doesn't have enough money. Use {money} to get the missing money to rankup.
+not-enough-money: "§8[§c!§8] §cYou don't have enough money to rankup. You need {money} more money to rankup."
+#The message displayed when a player rankups. Use {rank} to get the player's new rank
+rankup-message: "§8[§b!§8] §bCongratulations! §rYou are now rank §b{rank}"
+#The message sent to all the players on the server when a player rankups. Use {name} to get the player's name, and {rank} to get the new rank.
+rankup-broadcast: "§8[§b!§8] §b{name} §ris now rank §b{rank}"
+#Set to true to reset player's money on prestige, otherwise set to false
+reset-money-on-prestige: true
+#The message sent to warn the player about the money reset on prestige
+reset-money-message: "§8[§c!§8] §cAll your moneys will be resetted!"
+#The message displayed when a player prestiges. Use {prestige} to get the player's prestige
+prestige-message: "§8[§b!§8] §bCongratulations! §rYou are now §b{prestige}"
+#The message sent to all the players on the server when a player prestiges. Use {name} to get the player's name, and {prestige} to get the new prestige.
+prestige-broadcast: "§8[§b!§8] §b{name} §ris now §b{prestige}"
+#The message sent to the player after /sell command is issued. Use {money} to get the amount of money received.
+money-gained: "§8[§b!§8] §rYou got §b{money}§r from Selling Items"
+#The permission standard for every rank to set when a player rankups. Use {rank} to get the new rank.
+permission: "essentials.warps.{rank}"
+#The base multiplier value (default: 1.0)
+multiplier-base: 1.0
+#Set to true to increase the multiplier when an user prestiges, else to false
+multiplier-increment-on-prestige: true
+#The increase of the multiplier for every prestige. Default: 0.5
+multiplier-increase: 0.5
+#The message sent when a player doesn't have permissions to run a command. Use {command} to get the command he typed.
+no-permission-message: "§8[§c!§8] §rYou don't have permission to use the§c {command} §rcommand."
+#The format of the message sent in the chat. Use {prestige} to get the player's prestige, {rank} to get the player's rank and
+#{default format} to get the default chat format. Note: if you use PureChat, {default format} will use PureChat's format
+chat-format: "§l§b➳§r §e{prestige} §7| §6{rank}§r{default format}"
+#The message sent when a player uses /mystatus command. Use {rank} to get the player's rank, {prestige} to get the player's prestige,
+#{next rank} to get the player's next rank, {next prestige} to get the player's next prestige, and {money missing} to get the money missing to next rank/prestige.
+mystatus-message: "§7--------------------\n   §bPrison Status\n §rRank:§b {rank}\n §rPrestige:§b {prestige}\n §rNext rank:§b {next rank}\n §rNext prestige:§b {next prestige}\n §rMoney missing:§b {money missing}\n§7--------------------"
+#List of all prison ranks with relative name and rankup cost, you can add as many ranks as you want
+ranks:
+  "A": 0
+  "B": 30000
+  "C": 60000
+  "D": 120000
+  "E": 500000
+  "F": 2000000
+  "G": 3500000
+  "H": 4000000
+  "I": 8500000
+  "J": 10000000
+  "K": 21000000
+  "L": 30000000
+  "M": 45000000
+  "N": 68000000
+  "O": 200000000
+  "P": 380000000
+  "Q": 450000000
+  "R": 580000000
+  "S": 630000000
+  "T": 780000000
+  "U": 840000000
+  "V": 980000000
+  "W": 1100000000
+  "X": 2000000000
+  "Y": 3700000000
+  "Z": 8000000000
+  
+#The list of all prestiges with relative name and cost, you can add as many prestiges as you want
+prestiges:
+  "P1": 1000000000
+  "P2": 2000000000
+  "P3": 5000000000
+  "P4": 5000000000
+  "P5": 5000000000
+  "P6": 5000000000
+  "P7": 5000000000
+  "P8": 5000000000
+  "P9": 5000000000
+  "P10": 10000000000
+  
+#The selling cost of every block/item. Note: the price is relative to 1 block/item. Format: "id:meta": selling cost
+blocks:
+#Mine A Blocks Prices
+  "17:0": 1
+  "1:0": 6
+  "4:0": 6
+  "3:0": 10
+#Mine B Blocks Prices  
+  "17:1": 10
+  "48:0": 5
+  "110:0": 20
+#Mine C Blocks Prices  
+  "98:0": 20
+  "98:1": 18
+  "17:2": 30  
+#Mine D Blocks Prices  
+  "17:3": 40
+  "98:2": 30   
+#Mine E Blocks Prices  
+  "162:0": 70
+  "206:0": 40
+  "24:0": 50  
+#Mine F Blocks Prices  
+  "162:1": 70
+  "179:0": 80
+  "1:2": 90
+#Mine G Blocks Prices  
+  "168:1": 90
+  "168:2": 100
+  "168:0": 100
+#Mine H Blocks Prices  
+  "155:0": 110
+  "236:0": 100
+  "159:0": 200
+#Mine I Blocks Prices  
+  "45:0": 170
+  "112:0": 115
+  "215:0": 122
+#Mine J Blocks Prices  
+  "236:8": 190
+  "159:9": 130
+  "263:0": 150
+#Mine K Blocks Prices  
+  "159:12": 145
+  "406:0": 160
+  "265:0": 200   
+#Mine L Blocks Prices  
+  "159:5": 160
+  "351:4": 200
+#Mine M Blocks Prices  
+  "224:0": 200
+  "236:3": 175
+  "236:9": 207 
+#Mine N Blocks Prices  
+  "159:3": 198
+  "159:11": 200
+#Mine O Blocks Prices  
+  "331:0": 200
+  "159:5": 200
+  "236:5": 200
+#Mine P Blocks Prices  
+  "236:4": 200
+  "266:0": 290
+  "388:0": 415 
+#Mine Q Blocks Prices  
+  "173:0": 400
+  "236:15": 560
+  "236:7": 680   
+#Mine R Blocks Prices  
+  "159:6": 500 
+  "159:2": 560
+  "42:0": 510  
+#Mine S Blocks Prices  
+  "57:0": 800
+  "159:10": 900 
+#Mine T Blocks Prices  
+  "98:3": 1050 
+  "41:0": 1300
+  "1:3": 900  
+#Mine U Blocks Prices  
+  "213:0": 1500
+  "1:5": 1000
+  "49:0": 2600  
+#Mine V Blocks Prices   
+  "231:0": 4400  
+#Mine W Blocks Prices   
+  "224:0": 2000
+  "225:0": 3500
+  "219:0": 2600 
+#Mine X Blocks Prices   
+  "222:0": 2000  
+  "226:0": 3100  
+  "236:6": 4500    
+#Mine Y Blocks Prices   
+  "235:0": 4000  
+  "234:0": 4000  
+  "236:14": 3500    
+#Mine Z Blocks Prices   
+  "229:0": 6000  
+  "133:0": 7500 
+  "223:0": 8000   
+  #Chicken Spawner
+  "288:0": 0
+  "365:0": 20
+#Pig Spawner
+  "319:0": 60
+#Sheep Spawner
+  "35:0": 100
+  "423:0": 100
+#Cow Spawner
+  "334:0": 200
+  "363:0": 250
+#Zombie Spawner
+  "367:0": 800
+#Slime Spawner
+  "341:0": 1800
+#Ghast Spawner
+  "370:0": 2000
+  "289:0": 1500
+#Blaze Spawner
+  "369:0": 5000

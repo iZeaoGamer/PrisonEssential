@@ -1,0 +1,14 @@
+name: PrisonEssentials
+author: AlexItz16
+version: 1.1
+main: Prison\Main
+api: 3.0.0
+depend: [PurePerms, MineReset, EconomyAPI]
+description: "Prison plugin"
+permissions:
+  prison.setrank:
+    description: "Allows to use /setrank command"
+    default: op
+  prison.setprestige:
+    description: "Allows to use /setprestige command"
+    default: op
