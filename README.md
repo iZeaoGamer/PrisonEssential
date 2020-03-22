@@ -4,6 +4,8 @@ This prison essential has been on my old server for 1 year now.
 On this occasion because I no longer have a prison server.
 I make this plugin public for everyone.
 
+If you encounter Bugs do not forget to message me on Discord: DaRealAqua # 7047
+
 ### Plugin Perks:
 - RankUP System
 - Prestige System
