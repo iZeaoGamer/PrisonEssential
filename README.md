@@ -18,10 +18,10 @@ I make this plugin public for everyone.
 - /setprestige
 
 ### Plugin API'S:
- | $this->getRank($sender) = (Show what Rank you are)| 
- | $this->getNextRank($sender) = (It shows you what your UP Rank is)| 
- | $this->getPrestige($sender) = (Show what Prestige you are)|
- | $this->getNextPrestige($sender) = (It shows you what your UP Prestige is)|
+- |$this->getRank($sender) = (Show what Rank you are)| 
+- |$this->getNextRank($sender) = (It shows you what your UP Rank is)| 
+- |$this->getPrestige($sender) = (Show what Prestige you are)|
+- |$this->getNextPrestige($sender) = (It shows you what your UP Prestige is)|
 
 
 ### Authors:
