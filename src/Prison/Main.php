@@ -47,7 +47,7 @@ class Main extends PluginBase{
         $this->getServer()->getCommandMap()->registerAll("prison", [
             new MystatusCommand("mystat", $this),
             new RankupCommand("rankup", $this),
-            new SellCommand("msell", $this),
+            new SellCommand("mell", $this),
             new SetprestigeCommand("setprestige", $this),
             new SetrankCommand("setrank", $this)
         ]);
