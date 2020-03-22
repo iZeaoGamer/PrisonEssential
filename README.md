@@ -19,4 +19,9 @@ I make this plugin public for everyone.
 - Instagram: DaRealAqua
 - Xbox: DaRealAqua
 - Youtube: DaRealAqua
-s
+
+### My Mcpe Server:
+- IP: Soon
+- PORT: Soon
+- Status: Maintenance
+- Discord Server: https://discord.io/XeroxNetwork
