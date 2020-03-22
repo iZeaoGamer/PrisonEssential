@@ -23,7 +23,6 @@ I make this plugin public for everyone.
 - | $this->getPrestige($sender); = (Show what Prestige you are)|
 - | $this->getNextPrestige($sender); = (It shows you what your UP Prestige is)|
 
-
 ### Authors:
 - DaRealAqua
 - AlexItz16
@@ -39,3 +38,4 @@ I make this plugin public for everyone.
 - PORT: Soon
 - Status: Maintenance
 - Discord Server: https://discord.io/XeroxNetwork
+------------------------------------------------------------------------------------------------------------------------------
