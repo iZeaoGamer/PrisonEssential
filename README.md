@@ -5,9 +5,17 @@ I make this plugin public for everyone.
 ### Plugin Perks:
 - RankUP System
 - Prestige System
+- Status System
 - Sell System
 - World Protection
 - MineReset Compatible (If you put protection with this plugin at mines it will be compatible with MineReset. You can only break what is created with MineReset)
+
+### Plugin Commands:
+- /sell
+- /rankup - /ru
+- /mystatus
+- /setrank
+- /setprestige
 
 
 ### Authors:
